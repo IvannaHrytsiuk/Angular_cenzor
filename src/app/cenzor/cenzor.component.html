@@ -1,0 +1,11 @@
+<div class="mainBlock">
+    <div class="blockWords"> 
+        <span class="badWordsHead">Bad words: </span>
+        <span class="blockBadWordsHead" id="IdblockBadWordsHead" [textContent] = "arrBadWord"></span>
+    </div>
+    <input type="text" class="form-control inputBadWords" placeholder="Word here.." (focus)="focusEvent()" id="inputidBad">
+    <button type="button" class="btn btn-warning addButton" (click)="addButtonEvent()" >Add</button>
+    <button type="button" class="btn btn-danger resetButton" (click)="resetButtonEvent()">Reset</button>
+    <textarea name="textarea" id="textarea" placeholder="text here..." (focus)="focusEventTextarea()"></textarea>
+    <button type="button" class="btn btn-success cenzorButton" (click)="cenzorButtonEvent()">Cenzor</button>
+ </div>

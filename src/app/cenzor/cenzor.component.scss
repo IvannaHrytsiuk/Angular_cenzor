@@ -1,0 +1,39 @@
+.mainBlock{
+    width: 600px;
+    height: 225px;
+    background-color: ivory;
+    border: 1px solid lightgray;
+    margin: 150px auto;
+}
+.badWordsHead{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+    color: black;
+}
+.blockWords{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+.inputBadWords{
+    margin: 10px !important;
+    width: 60% !important;
+    display: inline-block !important;
+}
+.addButton{
+    width: 16% !important;
+}
+.resetButton{
+    width: 16% !important;
+    margin-left: 10px;
+}
+#textarea{
+    width: 96%;
+    height: 80px;
+    margin-left: 2%;
+}
+.cenzorButton{
+    width: 96% !important;
+    margin-left: 2% !important;
+}
